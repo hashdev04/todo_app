@@ -28,6 +28,7 @@ defmodule TodoAppWeb.ConnCase do
       import Plug.Conn
       import Phoenix.ConnTest
       import TodoAppWeb.ConnCase
+      import TodoApp.Factory
     end
   end
 
