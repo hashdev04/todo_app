@@ -24,6 +24,7 @@ defmodule TodoApp.DataCase do
       import Ecto.Changeset
       import Ecto.Query
       import TodoApp.DataCase
+      import TodoApp.Factory
     end
   end
 
